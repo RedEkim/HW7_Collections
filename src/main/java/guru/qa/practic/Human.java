@@ -42,7 +42,7 @@ public class Human {
         return isCute;
     }
 
-    void printSomeValues(int i, String str, List<String> list) {
+    public void printSomeValues(int i, String str, List<String> list) {
         i = 100;
         list.add("selenide");
         System.out.println("int: " + 1 +
