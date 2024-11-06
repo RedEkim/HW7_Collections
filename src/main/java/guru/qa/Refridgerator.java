@@ -1,10 +1,15 @@
 package guru.qa;
 
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Map;
+
 public class Refridgerator {
     public final boolean biCameral; // двухкамерный
     public final boolean freezer; // морозильная камера
     public int capacity; // вместимость
     String[] products; // продукты
+    Map<String, Refridgerator> weightOfProducts = new HashMap<>();
 
     public Refridgerator(boolean biCameral, boolean freezer, int capacity, String products) {
         this.biCameral = biCameral;
