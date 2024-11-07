@@ -97,8 +97,9 @@ public class Main {
 //        Deque<Integer> queueTwo = new ArrayDeque<>();
 
 
-        Refridgerator homesFridge = new Refridgerator(true,true, 100, "milk");
+        Refridgerator homesFridge = new Refridgerator(true,true, 5, "milk");
 
         System.out.println(homesFridge.toString());
+        homesFridge.printProducts();
     }
 }
