@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9678d108-4be5-48eb-9798-a8a7b0b452ba" name="Changes" comment="added the new method 'addProduct' and 'deleteProduct' in fridge">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/guru/qa/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guru/qa/Main.java" afterDir="false" />
+    <list default="true" id="9678d108-4be5-48eb-9798-a8a7b0b452ba" name="Changes" comment="added the new method 'searchProduct' in fridge">
       <change beforePath="$PROJECT_DIR$/src/main/java/guru/qa/Refridgerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guru/qa/Refridgerator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -183,7 +181,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730975791345</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="added the new method 'searchProduct' in fridge">
+      <option name="closed" value="true" />
+      <created>1730977160625</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1730977160625</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -214,6 +220,7 @@
     <MESSAGE value="added first class from homework" />
     <MESSAGE value="added the new method 'printProducts' in fridge" />
     <MESSAGE value="added the new method 'addProduct' and 'deleteProduct' in fridge" />
-    <option name="LAST_COMMIT_MESSAGE" value="added the new method 'addProduct' and 'deleteProduct' in fridge" />
+    <MESSAGE value="added the new method 'searchProduct' in fridge" />
+    <option name="LAST_COMMIT_MESSAGE" value="added the new method 'searchProduct' in fridge" />
   </component>
 </project>

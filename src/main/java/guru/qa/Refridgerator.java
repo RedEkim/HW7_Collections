@@ -27,7 +27,7 @@ public class Refridgerator {
                 "}";
     }
 
-    // напечать содержимое холодильника
+    // распечатать содержимое холодильника
     public void printProducts() {
         for (int i = 0; i < products.length; i++) {
             System.out.println(products[i]);
