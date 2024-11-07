@@ -112,5 +112,7 @@ public class Main {
         homesFridge.deleteProduct("milk");
 
         homesFridge.printProducts();
+
+        homesFridge.searchProduct("eggs");
     }
 }

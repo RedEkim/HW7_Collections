@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9678d108-4be5-48eb-9798-a8a7b0b452ba" name="Changes" comment="added the new method 'printProducts' in fridge">
+    <list default="true" id="9678d108-4be5-48eb-9798-a8a7b0b452ba" name="Changes" comment="added the new method 'addProduct' and 'deleteProduct' in fridge">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/guru/qa/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guru/qa/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/guru/qa/Refridgerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guru/qa/Refridgerator.java" afterDir="false" />
@@ -175,7 +175,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730974367957</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="added the new method 'addProduct' and 'deleteProduct' in fridge">
+      <option name="closed" value="true" />
+      <created>1730975791345</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1730975791345</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -205,6 +213,7 @@
     <MESSAGE value="added the playground" />
     <MESSAGE value="added first class from homework" />
     <MESSAGE value="added the new method 'printProducts' in fridge" />
-    <option name="LAST_COMMIT_MESSAGE" value="added the new method 'printProducts' in fridge" />
+    <MESSAGE value="added the new method 'addProduct' and 'deleteProduct' in fridge" />
+    <option name="LAST_COMMIT_MESSAGE" value="added the new method 'addProduct' and 'deleteProduct' in fridge" />
   </component>
 </project>

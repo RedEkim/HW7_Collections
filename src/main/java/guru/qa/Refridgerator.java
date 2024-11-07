@@ -47,12 +47,30 @@ public class Refridgerator {
         }
     }
 
+    // удалить продукт из холодильника
     public void deleteProduct(String value) {
         for (int i = 0; i < products.length; i++) {
             if (products[i].equals(value)) {
                 System.out.println("Удаление продукта "+ products[i]);
                 products[i] = null;
             }
+        }
+    }
+
+    // найти продукт в холодильнике
+    public void searchProduct(String value) {
+        int done = 0;
+        for (int i = 0; i < products.length; i++) {
+            if(products[i] != null) {
+                if (products[i].equals(value)) {
+                    System.out.println("i = " + i + ": " + products[i]);
+                    done = 1;
+                    break;
+                }
+            }
+        }
+        if (done == 0) {
+            System.out.println("Продукт не найден");
         }
     }
 }
