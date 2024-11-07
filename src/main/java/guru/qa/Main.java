@@ -97,9 +97,20 @@ public class Main {
 //        Deque<Integer> queueTwo = new ArrayDeque<>();
 
 
-        Refridgerator homesFridge = new Refridgerator(true,true, 5, "milk");
+        Refridgerator homesFridge = new Refridgerator(true,true, 5);
 
         System.out.println(homesFridge.toString());
+        homesFridge.printProducts();
+        homesFridge.addProduct("milk");
+        homesFridge.addProduct("meat");
+        homesFridge.addProduct("apples");
+        homesFridge.addProduct("water");
+        homesFridge.addProduct("eggs");
+//        homesFridge.addProduct("oranges");
+        homesFridge.printProducts();
+
+        homesFridge.deleteProduct("milk");
+
         homesFridge.printProducts();
     }
 }

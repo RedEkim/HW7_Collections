@@ -11,7 +11,7 @@ public class Refridgerator {
     String[] products; // продукты
     Map<String, Refridgerator> weightOfProducts = new HashMap<>();
 
-    public Refridgerator(boolean biCameral, boolean freezer, int capacity, String products) {
+    public Refridgerator(boolean biCameral, boolean freezer, int capacity) {
         this.biCameral = biCameral;
         this.freezer = freezer;
         this.capacity = capacity;
@@ -27,11 +27,32 @@ public class Refridgerator {
                 "}";
     }
 
-    // печатает содержимое холодильника
+    // напечать содержимое холодильника
     public void printProducts() {
         for (int i = 0; i < products.length; i++) {
             System.out.println(products[i]);
         }
     }
 
+    // добавить продукт в холодильник
+    public void addProduct(String value) {
+        for (int i = 0; i < products.length; i++) {
+            if (products != null && i == capacity - 1) {
+                System.out.println("Холодильник полон");
+            }
+            if (products[i] == null) {
+                products[i] = value;
+                break;
+            }
+        }
+    }
+
+    public void deleteProduct(String value) {
+        for (int i = 0; i < products.length; i++) {
+            if (products[i].equals(value)) {
+                System.out.println("Удаление продукта "+ products[i]);
+                products[i] = null;
+            }
+        }
+    }
 }
