@@ -114,5 +114,9 @@ public class Main {
         homesFridge.printProducts();
 
         homesFridge.searchProduct("eggs");
+
+        Car lacetti = new Car();
+        lacetti.addData("Марка: ", "Chevrolet");
+        lacetti.printCarData();
     }
 }
